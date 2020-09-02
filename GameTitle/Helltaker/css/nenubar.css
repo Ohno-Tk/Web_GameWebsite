@@ -1,0 +1,13 @@
+.base {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 100vh;
+}
+.base_menubar {
+  width: 30%;
+}
+
+.base_main {
+  width: 70%;
+}
