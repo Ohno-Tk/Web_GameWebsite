@@ -1,0 +1,19 @@
+/* メニューバー */
+.menubar_content{
+  font-size: 20px;
+  color: white;
+  background-color: black;
+  margin: 24px 0 12px;
+  padding: 8px 10px 8px 20px
+}
+
+/* メイン */
+.col-lg-7{
+  margin-top: 20px;
+}
+
+/* ゲーム情報 */
+.gameinfo{
+  padding: 8px 10px 8px 20px;
+  background-color:#f3f3f3;
+}
