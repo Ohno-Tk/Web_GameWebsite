@@ -3,12 +3,13 @@
   <meta charset="utf-8">
 
   <!-- ライブラリ  bootstrap-->
-  <link rel="stylesheet" href="../../css/bootstrap.css">
-  <script type="text/javascript" src="../../js/bootstrap.js"></script>
-  <!-- ライブラリ  jquery-->
-  <script type="text/javascript" src="../../js/jquery.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
-  <link rel="stylesheet" type="text/css" href="../css/common.css">
+  <link rel="stylesheet" type="text/css" href="../../common_css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
 
   <title>Helltaker攻略 : Enigma攻略サイト</title>
 </head>
@@ -17,77 +18,78 @@
   <!-- ヘッダー -->
   <header class="header">
     <div class="header_division">
-      <h1 class="header_division_text">Helltaker攻略</h1>
-      <p class="header_division_text">「Helltaker」の攻略サイトです。</p>
-      <!-- <a href="https://store.steampowered.com/app/1289310/Helltaker/" target="_blank">購入</a> -->
+      <h1><a href="" class="header_division_link">Helltaker攻略</a></h1>
+      <p>「Helltaker」の攻略サイトです。</p>
     </div>
   </header>
 
   <div class="container-fluid">
     <div class="row">
-        <!-- メニューバー -->
-        <div class="col-lg-3">
-          <h2 class="menubar_content">攻略チャート</h2>
-          <ul>
-            <li>チャプター1 困憊悪魔</li>
-            <li>チャプター2 好色悪魔</li>
-            <li>チャプター3 三つ子悪魔</li>
-            <li>チャプター4 毒舌悪魔</li>
-            <li>チャプター5 性悪悪魔</li>
-            <li>チャプター6 探求天使</li>
-            <li>チャプター7 激ヤバ悪魔</li>
-            <li>チャプター8 地獄CEO</li>
-            <li>チャプター9 ジャッジメント</li>
-            <li>チャプター10 エピローグ</li>
-          </ul>
+      <!-- サイドバー -->
+      <div class="col-lg-3">
 
-          <h2 class="menubar_content">その他</h2>
-          <ul>
-            <li><a href="">日本語パッチの当て方</a></li>
-            <li><a href="">実績</a></li>
-          </ul>
+        <h2 class="menubar_content" data-toggle="collapse" aria-expand="true" data-target="#cheatschart" aria-controls="cheatschart">攻略チャート</h2>
+        <ul class="collapse show"id="cheatschart">
+          <li><a href="">チャプター1 困憊悪魔</a></li>
+          <li><a href="">チャプター2 好色悪魔</a></li>
+          <li><a href="">チャプター3 三つ子悪魔</a></li>
+          <li><a href="">チャプター4 毒舌悪魔</a></li>
+          <li><a href="">チャプター5 性悪悪魔</a></li>
+          <li><a href="">チャプター6 探求天使</a></li>
+          <li><a href="">チャプター7 激ヤバ悪魔</a></li>
+          <li><a href="">チャプター8 地獄CEO</a></li>
+          <li><a href="">チャプター9 ジャッジメント</a></li>
+          <li><a href="">チャプター10 エピローグ</a></li>
+        </ul>
 
-          <h2 class="menubar_content">リンク</h2>
-          <ul>
-            <li><a href="https://store.steampowered.com/app/1289310/Helltaker/" target="_blank">公式リンク</a></li>
-          </ul>
+        <h2 class="menubar_content" data-toggle="collapse" aria-expand="true" data-target="#other" aria-controls="other">その他</h2>
+        <ul class="collapse show"id="other">
+          <li><a href="">日本語パッチの当て方</a></li>
+          <li><a href="">実績</a></li>
+        </ul>
+
+        <h2 class="menubar_content" data-toggle="collapse" aria-expand="true" data-target="#link" aria-controls="link">リンク</h2>
+        <ul class="collapse show"id="link">
+          <li><a href="https://store.steampowered.com/app/1289310/Helltaker/" target="_blank">公式リンク</a></li>
+        </ul>
+      </div>
+
+      <!-- メイン -->
+      <div class="col-lg-7">
+
+        <p>Steam用ソフト「Helltaker」の攻略サイトです。</p>
+
+        <!-- ゲーム情報 -->
+        <div class="table-responsive">
+          <table>
+              <tr>
+                <td class="gameinfo" rowspan="4">
+                  <img src="https://h1g.jp/helltaker/image/pk.jpg" alt="Helltaker_logo.jpg" title="Helltaker_logo.jpg" loading="lazy" width="150" height="150"></div>
+                </td>
+                <td class="gameinfo">タイトル</td>
+                <td>Helltaker</td>
+              </tr>
+              <tr>
+                <td class="gameinfo">機種</td>
+                <td>Steam</td>
+              </tr>
+              <tr>
+                <td class="gameinfo">ジャンル</td>
+                <td>パズル</td>
+              </tr>
+              <tr>
+                <td class="gameinfo">公式サイト</td>
+                <td><a href="https://store.steampowered.com/app/1289310/Helltaker/" rel="nofollow">https://store.steampowered.com/app/1289310/Helltaker/</a></td>
+              </tr>
+          </table>
         </div>
 
-        <!-- メイン -->
-        <div class="col-lg-7">
+        <h2 class="menubar_content">Helltaker 公式Twitter</h2>
+        <a class="twitter-timeline" data-lang="ja" data-width="600" data-height="800" data-theme="light" href="https://twitter.com/vanripperart?ref_src=twsrc%5Etfw">Tweets by vanripperart</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
 
-          <p>Steam用ソフト「Helltaker」の攻略サイトです。</p>
-
-          <!-- ゲーム情報 -->
-          <div class="table-responsive">
-            <table>
-                <tr>
-                  <td class="gameinfo" rowspan="4">
-                    <img src="https://h1g.jp/helltaker/image/pk.jpg" alt="Helltaker_logo.jpg" title="Helltaker_logo.jpg" loading="lazy" width="150" height="150"></div>
-                  </td>
-                  <td class="gameinfo">タイトル</td>
-                  <td>Helltaker</td>
-                </tr>
-                <tr>
-                  <td class="gameinfo">機種</td>
-                  <td>Steam</td>
-                </tr>
-                <tr>
-                  <td class="gameinfo">ジャンル</td>
-                  <td>パズル</td>
-                </tr>
-                <tr>
-                  <td class="gameinfo">公式サイト</td>
-                  <td><a href="https://store.steampowered.com/app/1289310/Helltaker/" rel="nofollow">https://store.steampowered.com/app/1289310/Helltaker/</a></td>
-                </tr>
-            </table>
-          </div>
-
-          <h2 class="menubar_content">Helltaker 公式Twitter</h2>
-          <a class="twitter-timeline" data-lang="ja" data-width="600" data-height="800" data-theme="light" href="https://twitter.com/vanripperart?ref_src=twsrc%5Etfw">Tweets by vanripperart</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-        </div>
-
-        <div class="col-lg-2"></div>
+      <!-- サイドバー -->
+      <div class="col-lg-2"></div>
     </div>
   </div>
 
