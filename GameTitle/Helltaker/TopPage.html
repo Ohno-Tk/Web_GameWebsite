@@ -16,12 +16,58 @@
 <body>
 
   <!-- ヘッダー -->
-  <header class="header">
+  <nav class="drawer drawer--left sticky-top navbar-left navbar-expand-md menubar-background">
+
+    <h2><a class="navbar-brand" href="TopPage.html">Helltaker攻略</a></h2>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">攻略チャート</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="">チャプター1 困憊悪魔</a></li>
+            <li><a class="dropdown-item" href="">チャプター2 好色悪魔</a></li>
+            <li><a class="dropdown-item" href="">チャプター3 三つ子悪魔</a></li>
+            <li><a class="dropdown-item" href="">チャプター4 毒舌悪魔</a></li>
+            <li><a class="dropdown-item" href="">チャプター5 性悪悪魔</a></li>
+            <li><a class="dropdown-item" href="">チャプター6 探求天使</a></li>
+            <li><a class="dropdown-item" href="">チャプター7 激ヤバ悪魔</a></li>
+            <li><a class="dropdown-item" href="">チャプター8 地獄CEO</a></li>
+            <li><a class="dropdown-item" href="">チャプター9 ジャッジメント</a></li>
+            <li><a class="dropdown-item" href="">チャプター10 エピローグ</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">その他</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+            <li><a class="dropdown-item" href="">日本語パッチの当て方</a></li>
+            <li><a class="dropdown-item" href="">実績</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">リンク</a>
+          <ul class="dropdown-menu" aria-labelledby="dropdown1">
+            <li><a class="dropdown-item" href="https://store.steampowered.com/app/1289310/Helltaker/" target="_blank">公式リンク</a></li>
+          </ul>
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">メニュー2</a>
+        </li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ヘッダー -->
+<!--   <header class="header">
     <div class="header_division">
       <h1><a href="" class="header_division_link">Helltaker攻略</a></h1>
       <p>「Helltaker」の攻略サイトです。</p>
     </div>
-  </header>
+  </header> -->
 
   <div class="container-fluid">
     <div class="row">
@@ -29,7 +75,7 @@
       <div class="col-lg-3">
 
         <h2 class="menubar_content" data-toggle="collapse" aria-expand="true" data-target="#cheatschart" aria-controls="cheatschart">攻略チャート</h2>
-        <ul class="collapse show"id="cheatschart">
+        <ul class="collapse show" id="cheatschart">
           <li><a href="">チャプター1 困憊悪魔</a></li>
           <li><a href="">チャプター2 好色悪魔</a></li>
           <li><a href="">チャプター3 三つ子悪魔</a></li>
@@ -54,38 +100,44 @@
         </ul>
       </div>
 
-      <!-- メイン -->
+      <!-- メイン コンテンツ-->
       <div class="col-lg-7">
 
         <p>Steam用ソフト「Helltaker」の攻略サイトです。</p>
 
-        <!-- ゲーム情報 -->
-        <div class="table-responsive">
-          <table>
-              <tr>
-                <td class="gameinfo" rowspan="4">
-                  <img src="https://h1g.jp/helltaker/image/pk.jpg" alt="Helltaker_logo.jpg" title="Helltaker_logo.jpg" loading="lazy" width="150" height="150"></div>
-                </td>
-                <td class="gameinfo">タイトル</td>
-                <td>Helltaker</td>
-              </tr>
-              <tr>
-                <td class="gameinfo">機種</td>
-                <td>Steam</td>
-              </tr>
-              <tr>
-                <td class="gameinfo">ジャンル</td>
-                <td>パズル</td>
-              </tr>
-              <tr>
-                <td class="gameinfo">公式サイト</td>
-                <td><a href="https://store.steampowered.com/app/1289310/Helltaker/" rel="nofollow">https://store.steampowered.com/app/1289310/Helltaker/</a></td>
-              </tr>
-          </table>
-        </div>
+        <h2 class="main_content" data-toggle="collapse" data-target="#collapse-game-info" aria-controls="collapse-game-info">ゲーム情報　▼</h2>
 
-        <h2 class="menubar_content">Helltaker 公式Twitter</h2>
-        <a class="twitter-timeline" data-lang="ja" data-width="600" data-height="800" data-theme="light" href="https://twitter.com/vanripperart?ref_src=twsrc%5Etfw">Tweets by vanripperart</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        <!-- ゲーム情報 -->
+        <table class="table-responsive collapse show" id="collapse-game-info">
+            <tr>
+              <td class="game-info-cell" rowspan="4">
+                <img src="https://h1g.jp/helltaker/image/pk.jpg" alt="Helltaker_logo.jpg" title="Helltaker_logo.jpg" loading="lazy" width="150" height="150"></div>
+              </td>
+              <td class="game-info-cell">タイトル</td>
+              <td>Helltaker</td>
+            </tr>
+            <tr>
+              <td class="game-info-cell">機種</td>
+              <td>Steam</td>
+            </tr>
+            <tr>
+              <td class="game-info-cell">ジャンル</td>
+              <td>パズル</td>
+            </tr>
+            <tr>
+              <td class="game-info-cell">公式サイト</td>
+              <td><a href="https://store.steampowered.com/app/1289310/Helltaker/" rel="nofollow">https://store.steampowered.com/app/1289310/Helltaker/</a></td>
+            </tr>
+        </table>
+
+        <!-- 公式Twitter -->
+        <h2 class="main_content" data-toggle="collapse" data-target="#collapse-official-info" aria-controls="collapse-official-info">Helltaker 公式Twitter　▼</h2>
+        <nav class="table-responsive collapse show" id="collapse-official-info">
+          <a class="twitter-timeline" data-lang="ja"  data-height="800" data-theme="light" href="https://twitter.com/vanripperart?ref_src=twsrc%5Etfw">
+            Tweets by vanripperart
+          </a>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </nav>
       </div>
 
       <!-- サイドバー -->
