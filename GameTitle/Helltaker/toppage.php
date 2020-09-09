@@ -2,13 +2,16 @@
 <head>
   <!-- 文字コード-->
   <meta charset="utf-8">
+  <meta http-equiv="Content-Script-Type" content="text/javascript">
+
+  <!-- ライブラリ  jquery-->
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 
   <!-- ライブラリ  bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
-
   <!-- 独自css-->
   <link rel="stylesheet" type="text/css" href="../../css/common.css">
   <link rel="stylesheet" type="text/css" href="../../css/toppage.css">
@@ -20,49 +23,13 @@
 <body>
 
   <!-- ヘッダー -->
-  <nav class="drawer drawer--left sticky-top navbar-left navbar-expand-md header-background">
+  <?php include('./Header.html'); ?>
 
-    <h1><a class="navbar-brand" href="TopPage.html">Helltaker攻略</a></h1>
 
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <ul class="collapse navbar-collapse navbar-nav" id="navbarNav">
-      <li class="nav-item">
-        <h4 class="dropdown-toggle nav-link" data-toggle="dropdown">攻略チャート</h4>
-        <ul class="dropdown-menu">
-          <li><a class="dropdown-item" href="">チャプター1 困憊悪魔</a></li>
-          <li><a class="dropdown-item" href="">チャプター2 好色悪魔</a></li>
-          <li><a class="dropdown-item" href="">チャプター3 三つ子悪魔</a></li>
-          <li><a class="dropdown-item" href="">チャプター4 毒舌悪魔</a></li>
-          <li><a class="dropdown-item" href="">チャプター5 性悪悪魔</a></li>
-          <li><a class="dropdown-item" href="">チャプター6 探求天使</a></li>
-          <li><a class="dropdown-item" href="">チャプター7 激ヤバ悪魔</a></li>
-          <li><a class="dropdown-item" href="">チャプター8 地獄CEO</a></li>
-          <li><a class="dropdown-item" href="">チャプター9 ジャッジメント</a></li>
-          <li><a class="dropdown-item" href="">チャプター10 エピローグ</a></li>
-        </ul>
-      </li>
-      <li class="nav-item">
-        <h4 class="dropdown-toggle nav-link" data-toggle="dropdown">その他</h4>
-        <ul class="dropdown-menu" aria-labelledby="dropdown1">
-          <li><a class="dropdown-item" href="">日本語パッチの当て方</a></li>
-          <li><a class="dropdown-item" href="">実績</a></li>
-        </ul>
-      </li>
-      <li class="nav-item">
-        <h4 class="dropdown-toggle nav-link" data-toggle="dropdown">リンク</h4>
-        <ul class="dropdown-menu" aria-labelledby="dropdown1">
-          <li><a class="dropdown-item" href="https://store.steampowered.com/app/1289310/Helltaker/" target="_blank">公式リンク</a></li>
-        </ul>
-      </li>
-    </ul>
-  </nav>
-
+  <!-- コンテンツ-->
   <div class="container-fluid">
     <div class="row">
-      <!-- サイドバー -->
+      <!-- サイド コンテンツ -->
       <div class="col-lg-2"></div>
 
       <!-- メイン コンテンツ-->
@@ -105,7 +72,7 @@
         </nav>
       </div>
 
-      <!-- サイドバー -->
+      <!-- サイド コンテンツ -->
       <div class="col-lg-2"></div>
     </div>
   </div>
