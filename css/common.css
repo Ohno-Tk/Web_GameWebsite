@@ -1,4 +1,27 @@
-/* メイン */
+/* メインコンテンツ */
 .col-lg-8{
   margin-top: 20px;
+}
+
+/* 見出しセル */
+.table-primary{
+  padding: 8px 10px 8px 20px;
+
+}
+.cell-info{
+  padding: 8px 10px 8px 20px;
+
+}
+
+.content{
+  color: white;
+  background-color: black;
+  margin: 24px 0 12px;
+  padding: 8px 10px 8px 20px;
+}
+
+.content.dropdown-bar{
+  /* マウスカーソル設定 */
+  cursor: pointer;
+  cursor: hand;
 }
