@@ -63,14 +63,15 @@
 
         <ul>
             <li>中央の魔法陣で、隠しコマンドを入れるとポータルが開く。</li>
-            <p><a class="achievement" href="./achievement">&#x1f3c6;実績「Abysstaker」</a>を獲得。</p>
+            <p><a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Abysstaker」</b></a>を獲得。</p>
             <img src="./images/chapter10-map2.jpg" class="img-fluid" alt="チャプター10マップ2" width="850" height="650">
 
             <li>隠しコマンド</li>
             <p>チャプター4～チャプター6で入手できる<b>「古代の碑文」</b>を集める。</p>
             <p>Escボタンを押すと開くメニューの下に、移動する方向が書かれている。</p>
+            <img src="./images/menu.jpg" class="img-fluid" alt="メニュー" width="850" height="650">
             <ul>
-              <li>↓↑→↑←↓↓←↑↓→↑</li>
+              <li>コマンド:　↓↑→↑←↓↓←↑↓→↑</li>
             </ul>
 
             <li>ポータルの中に入るとクリア。</li>

@@ -98,6 +98,8 @@
               <td class="cell-info"><a href="./cheatschart_chapter2.php" title="チャプター2 好色悪魔">チャプター2 好色悪魔</a>へ</td>
             </tr>
           </table>
+
+          <p><br><a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Doomtaker」</b></a>を獲得。</p>
         </div>
 
         <!-- 動画 -->

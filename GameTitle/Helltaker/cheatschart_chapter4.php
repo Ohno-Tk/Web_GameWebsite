@@ -77,6 +77,9 @@
               <li>↑（ブロックを蹴る）↑（ゴール）</li>
             </ol>
           </ul>
+
+          <p>アイテム「古代の碑文」を入手すると、</p>
+          <p><a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Pathtaker」</b></a>を獲得。</p>
         </div>
 
 
