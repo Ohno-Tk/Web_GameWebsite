@@ -17,7 +17,7 @@
   <link rel="stylesheet" type="text/css" href="../../css/header.css">
   <link rel="stylesheet" type="text/css" href="css/header-background.css">
 
-  <title>チャプター1 困憊悪魔 : Helltaker攻略</title>
+  <title>チャプター3 三つ子悪魔 : Helltaker攻略</title>
 </head>
 <body>
 
@@ -34,7 +34,7 @@
       <!-- メイン コンテンツ-->
       <div class="col-lg-8">
 
-      <h2>チャプター1 困憊悪魔</h2>
+      <h2>チャプター3 三つ子悪魔</h2>
 
       <!-- 目次 -->
       <h4 class="content">目次</h4>
@@ -51,11 +51,11 @@
           <table class="table-responsive">
             <tr>
               <td class="table-primary">ターン数</td>
-              <td class="cell-info">23</td>
+              <td class="cell-info">32</td>
             </tr>
             <tr>
               <td class="table-primary">アイテム</td>
-              <td class="cell-info">なし</td>
+              <td class="cell-info">鍵</td>
             </tr>
           </table>
 
@@ -63,7 +63,7 @@
 
           <ul>
             <li>スタート画面</li>
-            <img src="./images/chapter1-map.jpg" class="img-fluid" alt="チャプター1マップ" width="850" height="650">
+            <img src="./images/chapter3-map.jpg" class="img-fluid" alt="チャプター3マップ" width="850" height="650">
           </ul>
 
           <hr>
@@ -71,9 +71,10 @@
           <ul>
             <li>手順</li>
             <ol>
-              <li>↓←←（敵を蹴る）←←（もう1度蹴る）←←（敵を倒す）</li>
-              <li>←↓↓←↓↓→（ブロックを蹴る）→↑（ブロックを蹴る）</li>
-              <li>↑→→→（ブロックを蹴る）→↓→（ゴール）</li>
+              <li>←←←（トゲ床を踏む）←（トゲ床を踏む）←↓（トゲ床を踏む）</li>
+              <li>↓↓（トゲ床を踏む）↓←←↑（鍵ゲット）↓→→→→→（敵を蹴る）</li>
+              <li>→→（敵を倒す）→↑↑（トゲ床を踏む）↑↑↑（錠を開ける）</li>
+              <li>↑（ゴール）</li>
             </ol>
           </ul>
         </div>
@@ -83,19 +84,19 @@
         <h4 class="content dropdown-bar" id="choices" data-toggle="collapse" data-target="#collapse-choices" aria-controls="collapse-choices">選択肢　▼</h4>
         <div class="collapse show" id="collapse-choices">
 
-          <img src="./images/chapter1-choices.jpg" class="img-fluid" alt="チャプター1選択肢" width="850" height="650">
+          <img src="./images/chapter3-choices.jpg" class="img-fluid" alt="チャプター3選択肢" width="850" height="650">
           <table class="table-responsive">
             <tr>
               <th class="table-primary">選択肢</th>
               <th class="table-primary">備考</th>
             </tr>
             <tr>
-              <td class="cell-info">地獄を出て家でイロイロするぞ。</td>
-              <td class="cell-info">バッドエンド</td>
+              <td class="cell-info">決まりだ。何も聞かんぞ。</td>
+              <td class="cell-info"><a href="./cheatschart_chapter4.php" title="チャプター4 毒舌悪魔">チャプター4 毒舌悪魔</a>へ</td>
             </tr>
             <tr>
-              <td class="cell-info">代わりに俺がお前の担当になってやろうか？</td>
-              <td class="cell-info"><a href="./cheatschart_chapter2.php" title="チャプター2 好色悪魔">チャプター2 好色悪魔</a>へ</td>
+              <td class="cell-info">ずいぶん簡単だな。ちょっと聞きたいんだが。</td>
+              <td class="cell-info">バッドエンドへ</td>
             </tr>
           </table>
         </div>
@@ -103,7 +104,7 @@
         <!-- 動画 -->
         <h4 class="content dropdown-bar" id="gamevideo" data-toggle="collapse" data-target="#collapse-gamevideo" aria-controls="collapse-gamevideo">動画　▼</h4>
         <div class="embed-responsive embed-responsive-16by9 collapse show" id="collapse-gamevideo">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/NbehlPKS98U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/ead8A2-luQk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
         </div>
       </div>
 

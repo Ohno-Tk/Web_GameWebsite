@@ -1,4 +1,8 @@
-/* メインコンテンツ */
+li{
+  font-size: 18px;
+  padding: 5px 10px 5px;
+}
+
 .col-lg-8{
   margin-top: 20px;
 }
@@ -20,8 +24,13 @@
   padding: 8px 10px 8px 20px;
 }
 
+/* ドロップダウン用コンテンツ */
 .content.dropdown-bar{
   /* マウスカーソル設定 */
   cursor: pointer;
   cursor: hand;
+}
+
+.achievement{
+  background-color: rgb(250, 173, 250);
 }
