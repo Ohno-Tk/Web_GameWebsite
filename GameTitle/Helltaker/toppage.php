@@ -3,6 +3,10 @@
   <!-- 文字コード-->
   <meta charset="utf-8">
 
+  <!-- SEO-->
+  <meta name="description" content="HelltakerのChapter1攻略"/>
+  <meta name="keywords" content="Helltaker, STEAM">
+
   <!-- ライブラリ -->
   <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -40,7 +44,7 @@
         <table class="table-responsive collapse show" id="collapse-game-info">
           <tr>
             <td rowspan="4">
-              <img src="Images\gametitle.jpg" alt="./Images\icon.jpg" width="150" height="150">
+              <img src="Images\icon.jpg" alt="icon.jpg" width="150" height="150">
             </td>
             <td class="table-primary">タイトル</td>
             <td class="cell-info">Helltaker</td>
