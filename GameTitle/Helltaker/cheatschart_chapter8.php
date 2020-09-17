@@ -109,7 +109,8 @@
             </tr>
             <tr>
               <td class="cell-info">コーヒー、ターン制シミュ、チョコパンケーキがあるぞ。</td>
-              <td class="cell-info"><a href="./cheatschart_chapter9.php" title="チャプター9 ジャッジメント">チャプター9 ジャッジメント</a>へ</td>
+              <td class="cell-info"><a href="./cheatschart_chapter9.php" title="チャプター9 ジャッジメント">チャプター9 ジャッジメント</a>へ<br><br>
+              <a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Queentaker」</b></a>を獲得。</td>
             </tr>
           </table>
         </div>

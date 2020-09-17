@@ -79,6 +79,8 @@
               <li>↑←（錠を開ける）↑（ゴール）</li>
             </ol>
           </ul>
+
+          <p>クリアすると<br><a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Gatetaker」</b></a>を獲得。</p>
         </div>
 
         <!-- 動画 -->
@@ -93,18 +95,19 @@
 
           <ul>
             <li>床が下から上へと流れだす。<br>
-                上下の床牙に当たると、その時点でゲームオーバー。</li>
+            上下の床牙に当たると、その時点でゲームオーバー。</li>
             <li>出現する鎖に当たらないよう、一定時間避け続ける。<br>
-                「○○の鎖」破壊時に、当たった回数はリセットされる。</li>
+            「○○の鎖」破壊時に、当たった回数はリセットされる。</li>
 
-          <img src="./images/chapter9-map2.jpg" class="img-fluid" alt="チャプター9マップ2" width="850" height="650">
+            <img src="./images/chapter9-map2.jpg" class="img-fluid" alt="チャプター9マップ2" width="850" height="650">
 
-          <li>両端に出現する「○○の鎖」の何回も蹴り破壊すると、イベント。<br>
-              中央が安置で、床が動かなくなるのでパターンをゆっくり確認できる。</li>
+            <li>両端に出現する「○○の鎖」の何回も蹴り破壊すると、イベント。<br>
+            中央が安置で、床が動かなくなるのでパターンをゆっくり確認できる。</li>
 
-          <img src="./images/chapter9-map2.jpg" class="img-fluid" alt="チャプター9マップ3" width="850" height="650">
-           </ul>
+            <img src="./images/chapter9-map2.jpg" class="img-fluid" alt="チャプター9マップ3" width="850" height="650">
+          </ul>
 
+          <p>クリアすると<br><a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Sintaker」</b></a>を獲得。</p>
         </div>
 
         <!-- 選択肢 -->

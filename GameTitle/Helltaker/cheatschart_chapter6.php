@@ -100,7 +100,8 @@
             </tr>
             <tr>
               <td class="cell-info">天使を探している。</td>
-              <td class="cell-info">バッドエンドへ</td>
+              <td class="cell-info">バッドエンドへ<br>
+              <a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Heaventaker」</b></a>を獲得。</td>
             </tr>
           </table>
         </div>
