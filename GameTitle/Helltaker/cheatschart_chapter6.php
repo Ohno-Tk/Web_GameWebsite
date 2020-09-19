@@ -16,7 +16,7 @@
 
   <!-- 独自css-->
   <link rel="stylesheet" type="text/css" href="../../css/common.css">
-  <link rel="stylesheet" type="text/css" href="css/header-background.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
 
   <title>チャプター6 探求天使 : Helltaker攻略</title>
 </head>
