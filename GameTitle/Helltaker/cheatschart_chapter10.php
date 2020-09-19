@@ -16,7 +16,6 @@
 
   <!-- 独自css-->
   <link rel="stylesheet" type="text/css" href="../../css/common.css">
-  <link rel="stylesheet" type="text/css" href="../../css/header.css">
   <link rel="stylesheet" type="text/css" href="css/header-background.css">
 
   <title>チャプター10 エピローグ : Helltaker攻略</title>
@@ -31,7 +30,9 @@
   <div class="container-fluid">
     <div class="row">
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-3">
+        <?php include('./sidemenu.html'); ?>
+      </div>
 
       <!-- メイン コンテンツ-->
       <div class="col-lg-8">
@@ -90,8 +91,8 @@
 
           <table class="table-responsive">
             <tr>
-              <th class="table-primary">選択肢</th>
-              <th class="table-primary">備考</th>
+              <th class="cell-title">選択肢</th>
+              <th class="cell-title">備考</th>
             </tr>
             <tr>
               <td class="cell-info">チョコレートパンケーキなら。</td>
@@ -106,7 +107,7 @@
       </div>
 
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-1"></div>
     </div>
   </div>
 

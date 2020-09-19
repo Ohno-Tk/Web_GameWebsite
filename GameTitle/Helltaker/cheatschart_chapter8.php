@@ -16,7 +16,6 @@
 
   <!-- 独自css-->
   <link rel="stylesheet" type="text/css" href="../../css/common.css">
-  <link rel="stylesheet" type="text/css" href="../../css/header.css">
   <link rel="stylesheet" type="text/css" href="css/header-background.css">
 
   <title>チャプター8 地獄CEO : Helltaker攻略</title>
@@ -31,7 +30,9 @@
   <div class="container-fluid">
     <div class="row">
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-3">
+        <?php include('./sidemenu.html'); ?>
+      </div>
 
       <!-- メイン コンテンツ-->
       <div class="col-lg-8">
@@ -52,11 +53,11 @@
 
           <table class="table-responsive">
             <tr>
-              <td class="table-primary">ターン数</td>
+              <td class="cell-title">ターン数</td>
               <td class="cell-info">12</td>
             </tr>
             <tr>
-              <td class="table-primary">アイテム</td>
+              <td class="cell-title">アイテム</td>
               <td class="cell-info">-</td>
             </tr>
           </table>
@@ -86,8 +87,8 @@
           <img src="./images/chapter8-choices.jpg" class="img-fluid" alt="チャプター8選択肢" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="table-primary">選択肢</th>
-              <th class="table-primary">備考</th>
+              <th class="cell-title">選択肢</th>
+              <th class="cell-title">備考</th>
             </tr>
             <tr>
               <td class="cell-info">はい、女王様！</td>
@@ -102,8 +103,8 @@
           <img src="./images/chapter8-choices2.jpg" class="img-fluid" alt="チャプター8選択肢2" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="table-primary">選択肢</th>
-              <th class="table-primary">備考</th>
+              <th class="cell-title">選択肢</th>
+              <th class="cell-title">備考</th>
             </tr>
             <tr>
               <td class="cell-info">俺をご主人様と呼べ。話す前に伺いを立てろよ。</td>
@@ -125,7 +126,7 @@
       </div>
 
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-1"></div>
     </div>
   </div>
 

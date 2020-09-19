@@ -1,17 +1,38 @@
+h3{
+  border-bottom:solid;
+  border-color:#FF8C00;
+  border-width:5px;/* 太さ*/
+  padding: 5px 5px 5px;
+}
+
 li{
   font-size: 18px;
   padding: 5px 10px 5px;
 }
 
-/* メインコンテンツ */
-.col-lg-8{
-  margin-top: 20px;
+/* ヘッダ */
+.navbar-brand{
+  font-size: 40px;
+  color: white;
+  padding: 5px 20px 5px;
+}
+.nav-link:hover,.navbar-brand:hover{
+  color: aqua;
 }
 
-/* 見出しセル */
-.table-primary{
-  padding: 8px 10px 8px 20px;
+/* サイドメニュー */
+.navbar-toggler-icon {
+  /* 三本線の色変更 */
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='black' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.side-menu-list{
+  list-style-type: square;
+}
 
+/* 表 */
+.cell-title{
+  background-color: #fff2cc;
+  padding: 8px 10px 8px 20px;
 }
 .cell-info{
   padding: 8px 10px 8px 20px;
@@ -21,11 +42,11 @@ li{
 /* 通常コンテンツ */
 .content{
   color: white;
-  background-color: black;
+  font-weight: bold;
+  background-color: #FF8C00;
   margin: 24px 0 12px;
   padding: 8px 10px 8px 20px;
 }
-
 /* ドロップダウン用コンテンツ */
 .content.dropdown-bar{
   /* マウスカーソル設定 */
@@ -35,5 +56,5 @@ li{
 
 /* 実績 */
 .achievement{
-  background-color: rgb(250, 173, 250);
+  background-color: #FF8C00;
 }

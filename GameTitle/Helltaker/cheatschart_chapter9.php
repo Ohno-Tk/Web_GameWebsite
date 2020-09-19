@@ -16,7 +16,6 @@
 
   <!-- 独自css-->
   <link rel="stylesheet" type="text/css" href="../../css/common.css">
-  <link rel="stylesheet" type="text/css" href="../../css/header.css">
   <link rel="stylesheet" type="text/css" href="css/header-background.css">
 
   <title>チャプター9 ジャッジメント : Helltaker攻略</title>
@@ -31,7 +30,9 @@
   <div class="container-fluid">
     <div class="row">
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-3">
+        <?php include('./sidemenu.html'); ?>
+      </div>
 
       <!-- メイン コンテンツ-->
       <div class="col-lg-8">
@@ -53,11 +54,11 @@
 
           <table class="table-responsive">
             <tr>
-              <td class="table-primary">ターン数</td>
+              <td class="cell-title">ターン数</td>
               <td class="cell-info">33</td>
             </tr>
             <tr>
-              <td class="table-primary">アイテム</td>
+              <td class="cell-title">アイテム</td>
               <td class="cell-info">鍵</td>
             </tr>
           </table>
@@ -119,8 +120,8 @@
           <img src="./images/chapter9-choices.jpg" class="img-fluid" alt="チャプター9選択肢" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="table-primary">選択肢</th>
-              <th class="table-primary">備考</th>
+              <th class="cell-title">選択肢</th>
+              <th class="cell-title">備考</th>
             </tr>
             <tr>
               <td class="cell-info">君の髪は綺麗だな。</td>
@@ -135,8 +136,8 @@
           <img src="./images/chapter9-choices2.jpg" class="img-fluid" alt="チャプター9選択肢2" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="table-primary">選択肢</th>
-              <th class="table-primary">備考</th>
+              <th class="cell-title">選択肢</th>
+              <th class="cell-title">備考</th>
             </tr>
             <tr>
               <td class="cell-info">そうだな。だから今伝えるべきだと思った。</td>
@@ -151,8 +152,8 @@
           <img src="./images/chapter9-choices3.jpg" class="img-fluid" alt="チャプター9選択肢3" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="table-primary">選択肢</th>
-              <th class="table-primary">備考</th>
+              <th class="cell-title">選択肢</th>
+              <th class="cell-title">備考</th>
             </tr>
             <tr>
               <td class="cell-info">もっと早く君を見つけられればよかったと後悔している。</td>
@@ -167,8 +168,8 @@
           <img src="./images/chapter9-choices4.jpg" class="img-fluid" alt="チャプター9選択肢4" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="table-primary">選択肢</th>
-              <th class="table-primary">備考</th>
+              <th class="cell-title">選択肢</th>
+              <th class="cell-title">備考</th>
             </tr>
             <tr>
               <td class="cell-info">そうか、すまん。だが、君の目に見とれてな。</td>
@@ -183,8 +184,8 @@
           <img src="./images/chapter9-choices5.jpg" class="img-fluid" alt="チャプター9選択肢5" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="table-primary">選択肢</th>
-              <th class="table-primary">備考</th>
+              <th class="cell-title">選択肢</th>
+              <th class="cell-title">備考</th>
             </tr>
             <tr>
               <td class="cell-info">他に道はない。</td>
@@ -199,7 +200,7 @@
       </div>
 
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-1"></div>
     </div>
   </div>
 
