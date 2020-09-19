@@ -16,7 +16,7 @@
 
   <!-- 独自css-->
   <link rel="stylesheet" type="text/css" href="../../css/common.css">
-  <link rel="stylesheet" type="text/css" href="css/header-background.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
 
   <title>チャプター3 三つ子悪魔 : Helltaker攻略</title>
 </head>
