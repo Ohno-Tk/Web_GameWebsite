@@ -16,7 +16,6 @@
 
   <!-- 独自css-->
   <link rel="stylesheet" type="text/css" href="../../css/common.css">
-  <link rel="stylesheet" type="text/css" href="../../css/header.css">
   <link rel="stylesheet" type="text/css" href="css/header-background.css">
 
   <title>Helltaker攻略 : Enigma攻略サイト</title>
@@ -26,12 +25,13 @@
   <!-- ヘッダー -->
   <?php include('./Header.html'); ?>
 
-
   <!-- コンテンツ-->
   <div class="container-fluid">
     <div class="row">
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-3">
+        <?php include('./sidemenu.html'); ?>
+      </div>
 
       <!-- メイン コンテンツ-->
       <div class="col-lg-8">
@@ -46,19 +46,19 @@
             <td rowspan="4">
               <img src="Images\icon.jpg" alt="icon.jpg" width="150" height="150">
             </td>
-            <td class="table-primary">タイトル</td>
+            <td class="cell-title">タイトル</td>
             <td class="cell-info">Helltaker</td>
           </tr>
           <tr>
-            <td class="table-primary">機種</td>
+            <td class="cell-title">機種</td>
             <td class="cell-info">Steam</td>
           </tr>
           <tr>
-            <td class="table-primary">ジャンル</td>
+            <td class="cell-title">ジャンル</td>
             <td class="cell-info">パズル</td>
           </tr>
           <tr>
-            <td class="table-primary">公式サイト</td>
+            <td class="cell-title">公式サイト</td>
             <td class="cell-info"><a href="https://store.steampowered.com/app/1289310/Helltaker/" rel="nofollow">https://store.steampowered.com/app/1289310/Helltaker/</a></td>
           </tr>
         </table>
@@ -74,7 +74,7 @@
       </div>
 
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-1"></div>
     </div>
   </div>
 

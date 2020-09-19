@@ -16,7 +16,6 @@
 
   <!-- 独自css-->
   <link rel="stylesheet" type="text/css" href="../../css/common.css">
-  <link rel="stylesheet" type="text/css" href="../../css/header.css">
   <link rel="stylesheet" type="text/css" href="css/header-background.css">
 
   <title>実績 : Helltaker攻略</title>
@@ -31,7 +30,9 @@
   <div class="container-fluid">
     <div class="row">
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-3">
+        <?php include('./sidemenu.html'); ?>
+      </div>
 
       <!-- メイン コンテンツ-->
       <div class="col-lg-8">
@@ -48,9 +49,9 @@
 
       <table class="table-responsive collapse show" id="collapse-all-achievement">
         <tr>
-          <th class="table-primary">アイコン</th>
-          <th class="table-primary">名称</th>
-          <th class="table-primary">詳細</th>
+          <th class="cell-title">アイコン</th>
+          <th class="cell-title">名称</th>
+          <th class="cell-title">詳細</th>
         </tr>
         <tr>
           <th class="cell-info"><img src="./images/achievement/Doomtaker.jpg" class="img-fluid" alt="Doomtaker.jpg"></th>
@@ -118,7 +119,7 @@
       </div>
 
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-1"></div>
     </div>
   </div>
 
