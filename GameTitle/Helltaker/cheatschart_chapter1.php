@@ -23,7 +23,7 @@
 <body>
 
   <!-- ヘッダー -->
-  <?php include('./Header.html'); ?>
+  <?php include('./header.html'); ?>
 
 
   <!-- コンテンツ-->
@@ -53,12 +53,12 @@
 
           <table class="table-responsive">
             <tr>
-              <td class="cell-title">ターン数</td>
-              <td class="cell-info">23</td>
+              <th>ターン数</th>
+              <td>23</td>
             </tr>
             <tr>
-              <td class="cell-title">アイテム</td>
-              <td class="cell-info">なし</td>
+              <th>アイテム</th>
+              <td>なし</td>
             </tr>
           </table>
 
@@ -89,16 +89,16 @@
           <img src="./images/chapter1-choices.jpg" class="img-fluid" alt="チャプター1選択肢" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">地獄を出て家でイロイロするぞ。</td>
-              <td class="cell-info">バッドエンド</td>
+              <td>地獄を出て家でイロイロするぞ。</td>
+              <td>バッドエンド</td>
             </tr>
             <tr>
-              <td class="cell-info">代わりに俺がお前の担当になってやろうか？</td>
-              <td class="cell-info"><a href="./cheatschart_chapter2.php" title="チャプター2 好色悪魔">チャプター2 好色悪魔</a>へ</td>
+              <td>代わりに俺がお前の担当になってやろうか？</td>
+              <td><a href="./cheatschart_chapter2.php" title="チャプター2 好色悪魔">チャプター2 好色悪魔</a>へ</td>
             </tr>
           </table>
 

@@ -5,9 +5,21 @@ h3{
   padding: 5px 5px 5px;
 }
 
+
 li{
   font-size: 18px;
   padding: 5px 10px 5px;
+}
+
+th{
+  text-align: center;
+  background-color: #fff2cc;
+  padding: 8px 10px 8px 20px;
+}
+
+td{
+  text-align: center;
+  padding: 8px 10px 8px 20px;
 }
 
 /* ヘッダ */
@@ -29,17 +41,7 @@ li{
   list-style-type: square;
 }
 
-/* 表 */
-.cell-title{
-  background-color: #fff2cc;
-  padding: 8px 10px 8px 20px;
-}
-.cell-info{
-  padding: 8px 10px 8px 20px;
-
-}
-
-/* 通常コンテンツ */
+/* コンテンツ */
 .content{
   color: white;
   font-weight: bold;
@@ -56,5 +58,5 @@ li{
 
 /* 実績 */
 .achievement{
-  background-color: #FF8C00;
+  background-color: #ffb75e;
 }

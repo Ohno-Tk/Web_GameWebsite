@@ -11,9 +11,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
   <!-- 独自css-->
-  <link rel="stylesheet" type="text/css" href="../../css/common.css">
-  <link rel="stylesheet" type="text/css" href="../../css/header.css">
-  <link rel="stylesheet" type="text/css" href="css/header-background.css">
+  <link rel="stylesheet" type="text/css" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
 
   <title>Enigma攻略サイト</title>
 </head>
@@ -31,7 +30,20 @@
 
       <!-- メイン コンテンツ-->
       <div class="col-lg-8">
-
+        <table class="table collapse show" id="collapse-all-achievement">
+          <tr class="cell-title">
+            <th>ゲームタイトル</th>
+            <th>攻略機種</th>
+          </tr>
+          <tr>
+            <td class="cell-info"><a href="./GameTitle/Helltaker/toppage.php">Helltaker</a></td>
+            <td class="cell-info">Steam</td>
+          </tr>
+          <tr>
+            <td class="cell-info"><a href="./GameTitle/SENRENBANKA/toppage.php">千恋＊万花</a></td>
+            <td class="cell-info">Steam</td>
+          </tr>
+        </table>
       </div>
 
       <!-- サイド コンテンツ -->

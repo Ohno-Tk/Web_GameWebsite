@@ -23,7 +23,7 @@
 <body>
 
   <!-- ヘッダー -->
-  <?php include('./Header.html'); ?>
+  <?php include('./header.html'); ?>
 
 
   <!-- コンテンツ-->
@@ -51,14 +51,14 @@
         <h4 class="content dropdown-bar" id="answer" data-toggle="collapse" data-target="#collapse-answer" aria-controls="collapse-answer">パズルの解き方　▼</h4>
         <div class="collapse show" id="collapse-answer">
 
-          <table class="table-responsive">
+          <table class="table">
             <tr>
-              <td class="cell-title">ターン数</td>
-              <td class="cell-info">12</td>
+              <th>ターン数</th>
+              <td>12</td>
             </tr>
             <tr>
-              <td class="cell-title">アイテム</td>
-              <td class="cell-info">-</td>
+              <th>アイテム</th>
+              <td>-</td>
             </tr>
           </table>
 
@@ -87,32 +87,32 @@
           <img src="./images/chapter8-choices.jpg" class="img-fluid" alt="チャプター8選択肢" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">はい、女王様！</td>
-              <td class="cell-info">バッドエンド</td>
+              <td>はい、女王様！</td>
+              <td>バッドエンド</td>
             </tr>
             <tr>
-              <td class="cell-info">結構だ。それよりハーレムに入らないか？</td>
-              <td class="cell-info">次の選択肢へ</td>
+              <td>結構だ。それよりハーレムに入らないか？</td>
+              <td>次の選択肢へ</td>
             </tr>
           </table>
 
           <img src="./images/chapter8-choices2.jpg" class="img-fluid" alt="チャプター8選択肢2" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">俺をご主人様と呼べ。話す前に伺いを立てろよ。</td>
-              <td class="cell-info">バッドエンド</td>
+              <td>俺をご主人様と呼べ。話す前に伺いを立てろよ。</td>
+              <td>バッドエンド</td>
             </tr>
             <tr>
-              <td class="cell-info">コーヒー、ターン制シミュ、チョコパンケーキがあるぞ。</td>
-              <td class="cell-info"><a href="./cheatschart_chapter9.php" title="チャプター9 ジャッジメント">チャプター9 ジャッジメント</a>へ<br><br>
+              <td>コーヒー、ターン制シミュ、チョコパンケーキがあるぞ。</td>
+              <td><a href="./cheatschart_chapter9.php" title="チャプター9 ジャッジメント">チャプター9 ジャッジメント</a>へ<br><br>
               <a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Queentaker」</b></a>を獲得。</td>
             </tr>
           </table>

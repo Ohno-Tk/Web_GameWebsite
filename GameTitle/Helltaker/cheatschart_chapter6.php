@@ -23,7 +23,7 @@
 <body>
 
   <!-- ヘッダー -->
-  <?php include('./Header.html'); ?>
+  <?php include('./header.html'); ?>
 
 
   <!-- コンテンツ-->
@@ -51,14 +51,14 @@
         <h4 class="content dropdown-bar" id="answer" data-toggle="collapse" data-target="#collapse-answer" aria-controls="collapse-answer">パズルの解き方　▼</h4>
         <div class="collapse show" id="collapse-answer">
 
-          <table class="table-responsive">
+          <table class="table">
             <tr>
-              <td class="cell-title">ターン数</td>
-              <td class="cell-info">43</td>
+              <th>ターン数</th>
+              <td>43</td>
             </tr>
             <tr>
-              <td class="cell-title">アイテム</td>
-              <td class="cell-info">鍵<br>古代の碑文</td>
+              <th>アイテム</th>
+              <td>鍵<br>古代の碑文</td>
             </tr>
           </table>
 
@@ -94,16 +94,16 @@
           <img src="./images/chapter6-choices.jpg" class="img-fluid" alt="チャプター6選択肢" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">悪魔を探している。</td>
-              <td class="cell-info"><a href="./cheatschart_chapter7.php" title="チャプター7 激ヤバ悪魔">チャプター7 激ヤバ悪魔</a>へ</td>
+              <td>悪魔を探している。</td>
+              <td><a href="./cheatschart_chapter7.php" title="チャプター7 激ヤバ悪魔">チャプター7 激ヤバ悪魔</a>へ</td>
             </tr>
             <tr>
-              <td class="cell-info">天使を探している。</td>
-              <td class="cell-info">バッドエンドへ<br>
+              <td>天使を探している。</td>
+              <td>バッドエンドへ<br>
               <a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Heaventaker」</b></a>を獲得。</td>
             </tr>
           </table>
