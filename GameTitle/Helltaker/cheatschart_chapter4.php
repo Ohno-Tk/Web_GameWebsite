@@ -23,7 +23,7 @@
 <body>
 
   <!-- ヘッダー -->
-  <?php include('./Header.html'); ?>
+  <?php include('./header.html'); ?>
 
 
   <!-- コンテンツ-->
@@ -51,13 +51,13 @@
         <h4 class="content dropdown-bar" id="answer" data-toggle="collapse" data-target="#collapse-answer" aria-controls="collapse-answer">パズルの解き方　▼</h4>
         <div class="collapse show" id="collapse-answer">
 
-          <table class="table-responsive">
+          <table class="table">
             <tr>
-              <td class="cell-title">ターン数</td>
+              <th>ターン数</th>
               <td class="cell-info">32</td>
             </tr>
             <tr>
-              <td class="cell-title">アイテム</td>
+              <th>アイテム</th>
               <td class="cell-info">鍵<br>古代の碑文</td>
             </tr>
           </table>
@@ -93,16 +93,16 @@
           <img src="./images/chapter4-choices.jpg" class="img-fluid" alt="チャプター4選択肢" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">COOPキャンペーンの実績を取る相手を探している。</td>
-              <td class="cell-info"><a href="./cheatschart_chapter5.php" title="チャプター5 性悪悪魔">チャプター5 性悪悪魔</a>へ</td>
+              <td>COOPキャンペーンの実績を取る相手を探している。</td>
+              <td><a href="./cheatschart_chapter5.php" title="チャプター5 性悪悪魔">チャプター5 性悪悪魔</a>へ</td>
             </tr>
             <tr>
-              <td class="cell-info">たまらんな。もっと罵ってくれないか？</td>
-              <td class="cell-info">バッドエンドへ</td>
+              <td>たまらんな。もっと罵ってくれないか？</td>
+              <td>バッドエンドへ</td>
             </tr>
           </table>
         </div>

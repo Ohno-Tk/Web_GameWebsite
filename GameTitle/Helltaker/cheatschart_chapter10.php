@@ -23,7 +23,7 @@
 <body>
 
   <!-- ヘッダー -->
-  <?php include('./Header.html'); ?>
+  <?php include('./header.html'); ?>
 
 
   <!-- コンテンツ-->
@@ -49,38 +49,33 @@
 
         <!-- 通常エンディング -->
         <h4 class="content dropdown-bar" id="normal-ending" data-toggle="collapse" data-target="#collapse-normal-ending" aria-controls="collapse-normal-ending">通常エンディング　▼</h4>
-        <div class="collapse show" id="collapse-normal-ending">
-          <ul>
-            <li>悪魔の娘たちに近づくと、会話が出来る。</li>
-            <img src="./images/chapter10-map.jpg" class="img-fluid" alt="チャプター10マップ" width="850" height="650">
+        <ul class="collapse show" id="collapse-normal-ending">
+          <li>悪魔の娘たちに近づくと、会話が出来る。</li>
+          <img src="./images/chapter10-map.jpg" class="img-fluid" alt="チャプター10マップ" width="850" height="650">
 
-            <li>左下のパトカーに近づき、ドアを開けるとクリア。</li>
-            <img src="./images/chapter10-normal-ending.jpg" class="img-fluid" alt="チャプター10 通常エンディング" width="850" height="650">
-          </ul>
-        </div>
+          <li>左下のパトカーに近づき、ドアを開けるとクリア。</li>
+          <img src="./images/chapter10-normal-ending.jpg" class="img-fluid" alt="チャプター10 通常エンディング" width="850" height="650">
+        </ul>
 
 
         <!-- 特殊エンディング -->
         <h4 class="content dropdown-bar" id="another-ending" data-toggle="collapse" data-target="#collapse-another-ending" aria-controls="collapse-another-ending">特殊エンディング　▼</h4>
-        <div class="collapse show" id="collapse-another-ending">
+        <ul class="collapse show" id="collapse-another-ending">
+          <li>中央の魔法陣で、隠しコマンドを入れるとポータルが開く。</li>
+          <p><a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Abysstaker」</b></a>を獲得。</p>
+          <img src="./images/chapter10-map2.jpg" class="img-fluid" alt="チャプター10マップ2" width="850" height="650">
 
-        <ul>
-            <li>中央の魔法陣で、隠しコマンドを入れるとポータルが開く。</li>
-            <p><a class="achievement" href="./achievement">&#x1f3c6;<b>実績「Abysstaker」</b></a>を獲得。</p>
-            <img src="./images/chapter10-map2.jpg" class="img-fluid" alt="チャプター10マップ2" width="850" height="650">
-
-            <li>隠しコマンド</li>
-            <p>チャプター4～チャプター6で入手できる<b>「古代の碑文」</b>を集める。</p>
-            <p>Escボタンを押すと開くメニューの下に、移動する方向が書かれている。</p>
-            <img src="./images/menu.jpg" class="img-fluid" alt="メニュー" width="850" height="650">
-            <ul>
-              <li>コマンド:　↓↑→↑←↓↓←↑↓→↑</li>
-            </ul>
-
-            <li>ポータルの中に入るとクリア。</li>
-            <img src="./images/chapter10-map3.jpg" class="img-fluid" alt="チャプター10マップ3" width="850" height="650">
+          <li>隠しコマンド</li>
+          <p>チャプター4～チャプター6で入手できる<b>「古代の碑文」</b>を集める。</p>
+          <p>Escボタンを押すと開くメニューの下に、移動する方向が書かれている。</p>
+          <img src="./images/menu.jpg" class="img-fluid" alt="メニュー" width="850" height="650">
+          <ul>
+            <li>コマンド:　↓↑→↑←↓↓←↑↓→↑</li>
           </ul>
-        </div>
+
+          <li>ポータルの中に入るとクリア。</li>
+          <img src="./images/chapter10-map3.jpg" class="img-fluid" alt="チャプター10マップ3" width="850" height="650">
+        </ul>
 
         <!-- 選択肢 -->
         <h4 class="content dropdown-bar" id="choices" data-toggle="collapse" data-target="#collapse-choices" aria-controls="collapse-choices">選択肢　▼</h4>
@@ -91,16 +86,16 @@
 
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">チョコレートパンケーキなら。</td>
-              <td class="cell-info">クリア</td>
+              <td>チョコレートパンケーキなら。</td>
+              <td>クリア</td>
             </tr>
             <tr>
-              <td class="cell-info">チョコレートパンケーキなら。</td>
-              <td class="cell-info">クリア</td>
+              <td>チョコレートパンケーキなら。</td>
+              <td>クリア</td>
             </tr>
           </table>
         </div>

@@ -43,29 +43,29 @@
 
         <table class="table-responsive collapse show" id="collapse-game-info">
           <tr>
-            <td rowspan="4">
-              <img src="Images\icon.jpg" alt="icon.jpg" width="150" height="150">
+            <td class="cell-img" rowspan="4">
+              <img src="./images/icon.jpg" alt="icon.jpg">
             </td>
-            <td class="cell-title">タイトル</td>
-            <td class="cell-info">Helltaker</td>
+            <th>タイトル</th>
+            <td>Helltaker</td>
           </tr>
           <tr>
-            <td class="cell-title">機種</td>
-            <td class="cell-info">Steam</td>
+            <th>攻略機種</th>
+            <td>Steam</td>
           </tr>
           <tr>
-            <td class="cell-title">ジャンル</td>
-            <td class="cell-info">パズル</td>
+            <th>ジャンル</th>
+            <td>パズル</td>
           </tr>
           <tr>
-            <td class="cell-title">公式サイト</td>
-            <td class="cell-info"><a href="https://store.steampowered.com/app/1289310/Helltaker/" rel="nofollow">https://store.steampowered.com/app/1289310/Helltaker/</a></td>
+            <th>STEAMサイト</th>
+            <td><a href="https://store.steampowered.com/app/1289310/Helltaker/" rel="nofollow">https://store.steampowered.com/app/1289310/Helltaker/</a></td>
           </tr>
         </table>
 
         <!-- 公式Twitter -->
         <h4 class="content dropdown-bar" data-toggle="collapse" data-target="#collapse-official-info" aria-controls="collapse-official-info">公式Twitter　▼</h4>
-        <nav class="table-responsive collapse show" id="collapse-official-info">
+        <nav class="collapse show" id="collapse-official-info">
           <a class="twitter-timeline" data-lang="ja"  data-height="800" data-theme="light" href="https://twitter.com/vanripperart?ref_src=twsrc%5Etfw">
             Tweets by vanripperart
           </a>

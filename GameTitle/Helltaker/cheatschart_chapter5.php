@@ -23,7 +23,7 @@
 <body>
 
   <!-- ヘッダー -->
-  <?php include('./Header.html'); ?>
+  <?php include('./header.html'); ?>
 
 
   <!-- コンテンツ-->
@@ -51,14 +51,14 @@
         <h4 class="content dropdown-bar" id="answer" data-toggle="collapse" data-target="#collapse-answer" aria-controls="collapse-answer">パズルの解き方　▼</h4>
         <div class="collapse show" id="collapse-answer">
 
-          <table class="table-responsive">
+          <table class="table">
             <tr>
-              <td class="cell-title">ターン数</td>
-              <td class="cell-info">23</td>
+              <th>ターン数</th>
+              <td>23</td>
             </tr>
             <tr>
-              <td class="cell-title">アイテム</td>
-              <td class="cell-info">鍵<br>古代の碑文</td>
+              <th>アイテム</th>
+              <td>鍵<br>古代の碑文</td>
             </tr>
           </table>
 

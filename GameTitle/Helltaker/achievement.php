@@ -23,7 +23,7 @@
 <body>
 
   <!-- ヘッダー -->
-  <?php include('./Header.html'); ?>
+  <?php include('./header.html'); ?>
 
 
   <!-- コンテンツ-->
@@ -47,51 +47,51 @@
 
       <h4 class="content dropdown-bar" id="all-achievement" data-toggle="collapse" data-target="#collapse-all-achievement" aria-controls="collapse-all-achievement">実績一覧　▼</h4>
 
-      <table class="table-responsive collapse show" id="collapse-all-achievement">
-        <tr>
-          <th class="cell-title">アイコン</th>
-          <th class="cell-title">名称</th>
-          <th class="cell-title">詳細</th>
+      <table class="table collapse show" id="collapse-all-achievement">
+        <tr class="cell-title">
+          <th>アイコン</th>
+          <th>名称</th>
+          <th>詳細</th>
         </tr>
         <tr>
-          <th class="cell-info"><img src="./images/achievement/Doomtaker.jpg" class="img-fluid" alt="Doomtaker.jpg"></th>
-          <td class="cell-info">Doomtaker</td>
-          <td class="cell-info">Romance a demon</td>
+          <td class="cell-img"><img src="./images/achievement/Doomtaker.jpg" class="img-fluid" alt="Doomtaker.jpg"></td>
+          <td>Doomtaker</td>
+          <td>Romance a demon</td>
         </tr>
         <tr>
-          <th class="cell-info"><img src="./images/achievement/Lifetaker.jpg" class="img-fluid" alt="Lifetaker.jpg"></th>
-          <td class="cell-info">Lifetaker</td>
-          <td class="cell-info">Find some peace</td>
+          <td class="cell-img"><img src="./images/achievement/Lifetaker.jpg" class="img-fluid" alt="Lifetaker.jpg"></td>
+          <td>Lifetaker</td>
+          <td>Find some peace</td>
         </tr>
         <tr>
-          <th class="cell-info"><img src="./images/achievement/Heaventaker.jpg" class="img-fluid" alt="Heaventaker.jpg"></th>
-          <td class="cell-info">Heaventaker</td>
-          <td class="cell-info">Abandon your quest</td>
+          <td class="cell-img"><img src="./images/achievement/Heaventaker.jpg" class="img-fluid" alt="Heaventaker.jpg"></td>
+          <td>Heaventaker</td>
+          <td>Abandon your quest</td>
         </tr>
         <tr>
-          <th class="cell-info"><img src="./images/achievement/Queentaker.jpg" class="img-fluid" alt="Queentaker.jpg"></th>
-          <td class="cell-info">Queentaker</td>
-          <td class="cell-info">Survive the audience</td>
+          <td class="cell-img"><img src="./images/achievement/Queentaker.jpg" class="img-fluid" alt="Queentaker.jpg"></td>
+          <td>Queentaker</td>
+          <td>Survive the audience</td>
         </tr>
         <tr>
-          <th class="cell-info"><img src="./images/achievement/Gatetaker.jpg" class="img-fluid" alt="Gatetaker.jpg"></th>
-          <td class="cell-info">Gatetaker</td>
-          <td class="cell-info">Reach the gate</td>
+          <td class="cell-img"><img src="./images/achievement/Gatetaker.jpg" class="img-fluid" alt="Gatetaker.jpg"></td>
+          <td>Gatetaker</td>
+          <td>Reach the gate</td>
         </tr>
         <tr>
-          <th class="cell-info"><img src="./images/achievement/Sintaker.jpg" class="img-fluid" alt="Sintaker.jpg"></th>
-          <td class="cell-info">Sintaker</td>
-          <td class="cell-info">Face your sins</td>
+          <td class="cell-img"><img src="./images/achievement/Sintaker.jpg" class="img-fluid" alt="Sintaker.jpg"></td>
+          <td>Sintaker</td>
+          <td>Face your sins</td>
         </tr>
         <tr>
-          <th class="cell-info"><img src="./images/achievement/Pathtaker.jpg" class="img-fluid" alt="Pathtaker.jpg"></th>
-          <td class="cell-info">Pathtaker</td>
-          <td class="cell-info">Disregard the key</td>
+          <td class="cell-img"><img src="./images/achievement/Pathtaker.jpg" class="img-fluid" alt="Pathtaker.jpg"></td>
+          <td>Pathtaker</td>
+          <td>Disregard the key</td>
         </tr>
         <tr>
-          <th class="cell-info"><img src="./images/achievement/Abysstaker.jpg" class="img-fluid" alt="Abysstaker.jpg"></th>
-          <td class="cell-info">Abysstaker</td>
-          <td class="cell-info">Make the steps</td>
+          <td class="cell-img"><img src="./images/achievement/Abysstaker.jpg" class="img-fluid" alt="Abysstaker.jpg"></td>
+          <td>Abysstaker</td>
+          <td>Make the steps</td>
         </tr>
       </table>
 

@@ -16,27 +16,25 @@
 
   <!-- 独自css-->
   <link rel="stylesheet" type="text/css" href="../../css/common.css">
-  <link rel="stylesheet" type="text/css" href="../../css/header.css">
-  <link rel="stylesheet" type="text/css" href="css/header-background.css">
+  <link rel="stylesheet" type="text/css" href="css/header.css">
 
-  <title>Helltaker攻略 : Enigma攻略サイト</title>
+  <title>千恋＊万花攻略 : Enigma攻略サイト</title>
 </head>
 <body>
 
   <!-- ヘッダー -->
-  <?php include('./Header.html'); ?>
-
+  <?php include('./header.html'); ?>
 
   <!-- コンテンツ-->
   <div class="container-fluid">
     <div class="row">
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-3">
+        <?php include('./sidemenu.html'); ?>
+      </div>
 
       <!-- メイン コンテンツ-->
       <div class="col-lg-8">
-
-        <p>Steam用ソフト「Helltaker」の攻略サイトです。</p>
 
         <!-- ゲーム情報 -->
         <h4 class="content dropdown-bar" data-toggle="collapse" data-target="#collapse-game-info" aria-controls="collapse-game-info">ゲーム情報　▼</h4>
@@ -44,22 +42,22 @@
         <table class="table-responsive collapse show" id="collapse-game-info">
           <tr>
             <td rowspan="4">
-              <img src="Images\icon.jpg" alt="icon.jpg" width="150" height="150">
+              <img src="./images\header.jpg" alt="icon.jpg">
             </td>
-            <td class="table-primary">タイトル</td>
-            <td class="cell-info">Helltaker</td>
+            <th>タイトル</th>
+            <td>千恋*万花</td>
           </tr>
           <tr>
-            <td class="table-primary">機種</td>
-            <td class="cell-info">Steam</td>
+            <th>攻略機種</th>
+            <td>Steam</td>
           </tr>
           <tr>
-            <td class="table-primary">ジャンル</td>
-            <td class="cell-info">パズル</td>
+            <th>ジャンル</th>
+            <td>ADV</td>
           </tr>
           <tr>
-            <td class="table-primary">公式サイト</td>
-            <td class="cell-info"><a href="https://store.steampowered.com/app/1289310/Helltaker/" rel="nofollow">https://store.steampowered.com/app/1289310/Helltaker/</a></td>
+            <th>公式サイト</th>
+            <td><a href="http://www.yuzu-soft.com/products/senren/" rel="nofollow">http://www.yuzu-soft.com/products/senren/</a></td>
           </tr>
         </table>
 
@@ -74,7 +72,7 @@
       </div>
 
       <!-- サイド コンテンツ -->
-      <div class="col-lg-2"></div>
+      <div class="col-lg-1"></div>
     </div>
   </div>
 

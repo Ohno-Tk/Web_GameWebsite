@@ -23,7 +23,7 @@
 <body>
 
   <!-- ヘッダー -->
-  <?php include('./Header.html'); ?>
+  <?php include('./header.html'); ?>
 
 
   <!-- コンテンツ-->
@@ -52,14 +52,14 @@
         <h4 class="content dropdown-bar" id="collapse-action-puzzles" data-toggle="collapse" data-target="#collapse-answer" aria-controls="collapse-answer">パズルの解き方　▼</h4>
         <div class="collapse show" id="collapse-answer">
 
-          <table class="table-responsive">
+          <table class="table">
             <tr>
-              <td class="cell-title">ターン数</td>
-              <td class="cell-info">33</td>
+              <th">ターン数</th>
+              <td>33</td>
             </tr>
             <tr>
-              <td class="cell-title">アイテム</td>
-              <td class="cell-info">鍵</td>
+              <th>アイテム</th>
+              <td>鍵</td>
             </tr>
           </table>
 
@@ -120,80 +120,80 @@
           <img src="./images/chapter9-choices.jpg" class="img-fluid" alt="チャプター9選択肢" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">君の髪は綺麗だな。</td>
-              <td class="cell-info">次の選択肢へ</td>
+              <td>君の髪は綺麗だな。</td>
+              <td>次の選択肢へ</td>
             </tr>
             <tr>
-              <td class="cell-info">その衣装デザイン最高！10点満点！</td>
-              <td class="cell-info">次の選択肢へ</td>
+              <td>その衣装デザイン最高！10点満点！</td>
+              <td>次の選択肢へ</td>
             </tr>
           </table>
 
           <img src="./images/chapter9-choices2.jpg" class="img-fluid" alt="チャプター9選択肢2" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">そうだな。だから今伝えるべきだと思った。</td>
-              <td class="cell-info">次の選択肢へ</td>
+              <td>そうだな。だから今伝えるべきだと思った。</td>
+              <td>次の選択肢へ</td>
             </tr>
             <tr>
-              <td class="cell-info">爪もマジでイカしてるぞ！</td>
-              <td class="cell-info">次の選択肢へ</td>
+              <td>爪もマジでイカしてるぞ！</td>
+              <td>次の選択肢へ</td>
             </tr>
           </table>
 
           <img src="./images/chapter9-choices3.jpg" class="img-fluid" alt="チャプター9選択肢3" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">もっと早く君を見つけられればよかったと後悔している。</td>
-              <td class="cell-info">次の選択肢へ</td>
+              <td>もっと早く君を見つけられればよかったと後悔している。</td>
+              <td>次の選択肢へ</td>
             </tr>
             <tr>
-              <td class="cell-info">君に罰せられるなら、俺の罪も価値あるものとなった。</td>
-              <td class="cell-info">次の選択肢へ</td>
+              <td>君に罰せられるなら、俺の罪も価値あるものとなった。</td>
+              <td>次の選択肢へ</td>
             </tr>
           </table>
 
           <img src="./images/chapter9-choices4.jpg" class="img-fluid" alt="チャプター9選択肢4" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">そうか、すまん。だが、君の目に見とれてな。</td>
-              <td class="cell-info">次の選択肢へ</td>
+              <td>そうか、すまん。だが、君の目に見とれてな。</td>
+              <td>次の選択肢へ</td>
             </tr>
             <tr>
-              <td class="cell-info">君の髪がどれだけ素晴らしいか話していいか？</td>
-              <td class="cell-info">次の選択肢へ</td>
+              <td>君の髪がどれだけ素晴らしいか話していいか？</td>
+              <td>次の選択肢へ</td>
             </tr>
           </table>
 
           <img src="./images/chapter9-choices5.jpg" class="img-fluid" alt="チャプター9選択肢5" width="850" height="650">
           <table class="table-responsive">
             <tr>
-              <th class="cell-title">選択肢</th>
-              <th class="cell-title">備考</th>
+              <th>選択肢</th>
+              <th>備考</th>
             </tr>
             <tr>
-              <td class="cell-info">他に道はない。</td>
-              <td class="cell-info"><a href="./cheatschart_chapter10.php" title="チャプター10 エピローグ">チャプター10 エピローグ</a>へ</td>
+              <td>他に道はない。</td>
+              <td><a href="./cheatschart_chapter10.php" title="チャプター10 エピローグ">チャプター10 エピローグ</a>へ</td>
             </tr>
             <tr>
-              <td class="cell-info">大丈夫、俺のハーレムにはもっとひどいのもいる。</td>
-              <td class="cell-info"><a href="./cheatschart_chapter10.php" title="チャプター10 エピローグ">チャプター10 エピローグ</a>へ</td>
+              <td>大丈夫、俺のハーレムにはもっとひどいのもいる。</td>
+              <td><a href="./cheatschart_chapter10.php" title="チャプター10 エピローグ">チャプター10 エピローグ</a>へ</td>
             </tr>
           </table>
         </div>
