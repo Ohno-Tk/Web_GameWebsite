@@ -1,4 +1,4 @@
-# タイトル(GameTitle)
+# タイトル(Title)
 ゲーム攻略サイト
 
 # 開発環境(Development Tools)
